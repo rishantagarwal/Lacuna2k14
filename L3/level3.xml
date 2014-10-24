@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<level width="40" height="60" />
+	<gravity x="0" y="10" />
+	<prop boxCount="9" width="3" height="3" order="0,1,2,3,4,5,6,7,8" boxWidth="10" boxHeight="8" />
+	<!-- = = HORIZONTAL -->
+	<boxes>
+	<!-- TOP WALLS -->
+		<box0 type="wall" length="1" dir="0" cornerType="1" x="2" y="0" friction="1.2" restitution="0"/>
+		<box0 type="wall" length="1" dir="0" cornerType="1" x="0" y="0" friction="1.2" restitution="0"/>
+		<box0 type="wall" length="1" dir="0" cornerType="1" x="1" y="0" friction="1.2" restitution="0"/>
+		
+		<box1 type="wall" length="2" dir="1" cornerType="1" x="0" y="0" friction="1.2" restitution="0"/>
+		<box1 type="wall" length="2" dir="1" cornerType="1" x="2" y="0" friction="1.2" restitution="0"/>
+		
+		<box2 type="wall" length="3" dir="0" cornerType="1" x="2" y="0" friction="1.2" restitution="0"/>
+		
+		<box3 type="wall" length="4" dir="1" cornerType="1" x="2" y="0" friction="1.2" restitution="0"/>
+		
+		<box4 type="wall" length="5" dir="0" cornerType="1" x="2" y="0" friction="1.2" restitution="0"/>
+		
+		<box5 type="wall" length="4" dir="1" cornerType="1" x="2" y="0" friction="1.2" restitution="0"/>
+		
+		<box6 type="wall" length="3" dir="0" cornerType="1" x="2" y="0" friction="1.2" restitution="0"/>
+		
+		<box7 type="wall" length="2" dir="1" cornerType="1" x="2" y="0" friction="1.2" restitution="0"/>
+		
+		<box8 type="wall" length="1" dir="0" cornerType="1" x="2" y="0" friction="1.2" restitution="0"/>
+		
+	</boxes>
+	
+	
+	<exit x="24" y="2" />
+</data>

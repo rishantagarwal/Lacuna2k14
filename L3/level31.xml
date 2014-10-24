@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<level width="12" height="18" countRotations="100" cannonImp="15"/>
+	<exit x="12" y="2" />
+	<gravity x="0" y="10"/>
+	<!-- <man x="0" y="9" friction="0.3" restitution="0.7" density="1" inventoryX="0" inventoryY="14" width="25" height="1" /> -->
+	<!-- = = HORIZONTAL -->
+	<normalworld>
+		<staticobjs>
+			<staticobj type="wall" length="1" height="18" isGrassy="0" x="0" y="0" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="12" height="1" isGrassy="0" x="0" y="18" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="1" height="5" isGrassy="0" x="2" y="13" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="3" height="1" isGrassy="0" x="4" y="12" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="1" height="2" isGrassy="0" x="6" y="15" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="1" height="1" isGrassy="0" x="7" y="16" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="2" height="1" isGrassy="0" x="9" y="13" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="2" height="1" isGrassy="0" x="10" y="14" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="2" height="2" isGrassy="0" x="10" y="9" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="3" height="1" isGrassy="0" x="0" y="10" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="1" height="1" isGrassy="0" x="6" y="6" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="1" height="2" isGrassy="0" x="7" y="5" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="1" height="2" isGrassy="0" x="8" y="4" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="1" height="1" isGrassy="0" x="9" y="4" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="1" height="2" isGrassy="0" x="2" y="0" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="1" height="4" isGrassy="0" x="4" y="0" friction="1.2" restitution="0" />
+			<staticobj type="spike" x="4" y="4" length="1" dir="0" inverted="1" />
+			<staticobj type="wall" length="1" height="1" isGrassy="0" x="4" y="7" friction="1.2" restitution="0" />
+			<staticobj type="spike" x="4" y="6.5" length="1" dir="0" inverted="0" />
+			<staticobj type="wall" length="1" height="18" isGrassy="0" x="12" y="1" friction="1.2" restitution="0" />
+		</staticobjs>
+		
+		<specobjs>
+			<specobj type="man" x="10" y="17" length="0.8" width="0.4" friction="1.2" restitution="0" density="5" jumpImpulse="6" />
+			<specobj type="cannon" x="0" y="7.5" width="0.4" height="0.5" dir="2" impulse="5" />
+			<specobj type="cannon" x="3" y="17.5" width="0.4" height="0.5" dir="1" impulse="5" />
+			<specobj type="cannon" x="1" y="17.5" width="0.4" height="0.5" dir="1" impulse="5" />
+			
+			<specobj type="rocket" startx="3" starty="11" endx="7" endy="11" dir="2" vel="3" />
+			<specobj type="rocket" startx="1" starty="10" endx="9" endy="10" dir="2" vel="2" />
+			<specobj type="rocket" startx="2" starty="2" endx="2" endy="10" dir="3" vel="4" />
+			<specobj type="clue" x="1" y="16" qNo="0"/>
+			<specobj type="clue" x="7" y="4" qNo="1"/>
+
+
+			
+		</specobjs>
+		
+	</normalworld>
+		
+	<mirrorworld>
+		<staticobjs>
+			<staticobj type="wall" length="13" height="1" isGrassy="0" x="0" y="0" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="12" height="1" isGrassy="0" x="0" y="18" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="1" height="2" isGrassy="0" x="5" y="0" friction="1.2" restitution="0" />
+			<staticobj type="spike" x="5" y="2" length="1" dir="0" inverted="1" />
+			<staticobj type="wall" length="1" height="5" isGrassy="0" x="5" y="5" friction="1.2" restitution="0" />
+			<staticobj type="spike" x="5" y="4.5" length="1" dir="0" inverted="0" />
+			<staticobj type="wall" length="2" height="1" isGrassy="0" x="0" y="8" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="2" height="1" isGrassy="0" x="10" y="13" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="1" height="4" isGrassy="0" x="4" y="14" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="1" height="4" isGrassy="0" x="8" y="14" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="2" height="1" isGrassy="0" x="3" y="15" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="2" height="1" isGrassy="0" x="6" y="14" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="1" height="1" isGrassy="0" x="8" y="8" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="1" height="2" isGrassy="0" x="9" y="7" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="2" height="5" isGrassy="0" x="10" y="6" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="2" height="1" isGrassy="0" x="10" y="6" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="2" height="5" isGrassy="0" x="10" y="6" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="2" height="1" isGrassy="0" x="2" y="4" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="2" height="1" isGrassy="0" x="5" y="10" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="2" height="1" isGrassy="0" x="5" y="16" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="1" height="1" isGrassy="0" x="8" y="11" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="1" height="18" isGrassy="0" x="0" y="2" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="1" height="18" isGrassy="0" x="12" y="2" friction="1.2" restitution="0" />
+			<staticobj type="wall" length="2" height="1" isGrassy="0" x="4" y="8" friction="1.2" restitution="0" />
+		</staticobjs>
+		
+		<specobjs>
+			<specobj type="cannon" x="9.5" y="18" width="0.4" height="0.5" dir="1" impulse="5" />
+			<specobj type="cannon" x="11.5" y="5" width="0.4" height="0.5" dir="0" impulse="5" />
+			<specobj type="clue" x="11" y="17" qNo="2"/>
+			<specobj type="clue" x="6" y="1" qNo="4"/>
+			<specobj type="clue" x="3" y="9" qNo="3"/>
+			
+			<specobj type="rocket" startx="0" starty="5" endx="3" endy="5" dir="2" vel="2" />
+			<specobj type="rocket" startx="8" starty="0" endx="8" endy="5" dir="3" vel="2" />
+			<specobj type="rocket" startx="0" starty="11" endx="9" endy="11" dir="2" vel="1" />
+			<specobj type="man" x="2" y="16" length="0.8" width="0.4" friction="1.2" restitution="0" density="5" jumpImpulse="6" />
+			
+		</specobjs>
+
+	</mirrorworld>
+	
+	
+</data>

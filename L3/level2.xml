@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<level width="40" height="60" />
+	<gravity x="0" y="10" />
+	
+	<prop boxCount="9" width="3" height="3" order="0,1,2,3,4,5,6,7,8" boxWidth="12" boxHeight="8" />
+	<!-- = = HORIZONTAL -->
+	<boxes>
+	<!-- TOP WALLS -->
+		<box0 type="wall" length="3" height="2" isGrassy="0" x="0" y="0" friction="1.2" restitution="0"/>
+		<box0 type="man" x="3.5" y="1.8" length="0.8" width="0.4" friction="1.2" restitution="0" density="5" jumpImpulse="5" />
+		<box0 type="wall" length="2" height="1" isGrassy="0" x="4" y="0" friction="1.2" restitution="0"/>
+		<box0 type="wall" length="5" height="2" isGrassy="0" x="7" y="0" friction="1.2" restitution="0"/>
+		<box0 type="wall" length="4" height="1" isGrassy="1" x="0" y="3" friction="1.2" restitution="0"/>
+		<box0 type="wall" length="2" height="1" isGrassy="1" x="4" y="2" friction="1.2" restitution="0"/>
+		<box0 type="wall" length="1" height="2" isGrassy="0" x="1" y="4" friction="1.2" restitution="0"/>
+		<box0 type="wall" length="2" height="3" isGrassy="1" x="0" y="5" friction="1.2" restitution="0"/>
+		<box0 type="wall" length="1" height="2" isGrassy="0" x="1" y="4" friction="1.2" restitution="0"/>
+		<box0 type="wall" length="7" height="1" isGrassy="1" x="5" y="4" friction="1.2" restitution="0"/>
+		<box0 type="wall" length="3" height="3" isGrassy="1" x="3" y="5" friction="1.2" restitution="0"/>
+		<box0 type="wall" length="5" height="2" isGrassy="1" x="7" y="6" friction="1.2" restitution="0"/>
+		<box0 type="wall" length="1" height="4" isGrassy="1" x="5" y="4" friction="1.2" restitution="0"/>
+		<box0 type="turtle" startX="5" startY="3" endX="11" endY="3" vel="1" fric="0.5" />
+		<box0 type="clue" x="6" y="3" level="2" qNo="0" />
+		
+		<box1 type="wall" length="3" height="3" isGrassy="0" x="0" y="0" friction="1.2" restitution="0"/>
+		<box1 type="wall" length="4" height="1" isGrassy="1" x="0" y="4" friction="1.2" restitution="0"/>
+		<box1 type="wall" length="3" height="2" isGrassy="1" x="0" y="6" friction="1.2" restitution="0"/>
+		<box1 type="wall" length="2" height="3" isGrassy="0" x="4" y="0" friction="1.2" restitution="0"/>
+		<box1 type="wall" length="2" height="4" isGrassy="0" x="4" y="4" friction="1.2" restitution="0"/>
+		<box1 type="wall" length="5" height="1" isGrassy="1" x="7" y="7" friction="1.2" restitution="0"/>		
+		<box1 type="wall" length="1" height="4" isGrassy="1" x="7" y="4" friction="1.2" restitution="0"/>
+		<box1 type="wall" length="3" height="4" isGrassy="1" x="9" y="2" friction="1.2" restitution="0"/>
+		<box1 type="wall" length="2" height="1" isGrassy="0" x="9" y="2" friction="1.2" restitution="0"/>
+		<box1 type="wall" length="5" height="1" isGrassy="0" x="7" y="0" friction="1.2" restitution="0"/>
+		<box1 type="wall" length="4" height="1" isGrassy="0" x="7" y="1" friction="1.2" restitution="0"/>
+		<box1 type="wall" length="4" height="1" isGrassy="1" x="8" y="7" friction="1.2" restitution="0"/>
+		<box1 type="clue" x="11" y="1" level="2" qNo="1" />
+		
+		<box2 type="wall" length="2" height="1" isGrassy="0" x="0" y="0" friction="1.2" restitution="0"/>
+		<box2 type="wall" length="3" height="1" isGrassy="0" x="3" y="0" friction="1.2" restitution="0"/>
+		<box2 type="wall" length="5" height="1" isGrassy="0" x="7" y="0" friction="1.2" restitution="0"/>
+		<box2 type="wall" length="3" height="1" isGrassy="1" x="0" y="2" friction="1.2" restitution="0"/>
+		<box2 type="wall" length="1" height="3" isGrassy="0" x="0" y="3" friction="1.2" restitution="0"/>
+		<box2 type="wall" length="2" height="1" isGrassy="1" x="0" y="7" friction="1.2" restitution="0"/>
+		<box2 type="wall" length="4" height="1" isGrassy="1" x="2" y="6" friction="1.2" restitution="0"/>
+		<box2 type="wall" length="3" height="1" isGrassy="0" x="3" y="7" friction="1.2" restitution="0"/>
+		<box2 type="wall" length="7" height="1" isGrassy="1" x="5" y="2" friction="1.2" restitution="0"/>
+		<box2 type="wall" length="2" height="3" isGrassy="0" x="10" y="3" friction="1.2" restitution="0"/>
+		<box2 type="wall" length="1" height="1" isGrassy="0" x="10" y="6" friction="1.2" restitution="0"/>
+		<box2 type="wall" length="5" height="1" isGrassy="1" x="7" y="7" friction="1.2" restitution="0"/>
+		<box2 type="wall" length="1" height="2" isGrassy="0" x="7" y="1" friction="1.2" restitution="0"/>
+		<box2 type="turtle" startX="2" startY="5" endX="5" endY="5" vel="1" fric="0.5" />
+		<box2 type="bwall" length="0.5" height="1" x="5" y="3" />
+		<box2 type="bwall" length="0.5" height="1" x="7" y="3" />
+		<box2 type="bwall" length="2.5" height="0.5" x="5" y="4" />
+		<box2 type="clue" x="6" y="3" level="2" qNo="4" />
+		
+		<box3 type="wall" length="2" height="1" isGrassy="0" x="2" y="2" friction="1.2" restitution="0"/>
+		<box3 type="wall" length="3" height="3" isGrassy="0" x="0" y="0" friction="1.2" restitution="0"/>
+		<box3 type="wall" length="2" height="1" isGrassy="0" x="4" y="0" friction="1.2" restitution="0"/>
+		<box3 type="wall" length="5" height="1" isGrassy="0" x="7" y="0" friction="1.2" restitution="0"/>
+		<box3 type="wall" length="1" height="1" isGrassy="1" x="3" y="2" friction="1.2" restitution="0"/>
+		<box3 type="wall" length="2" height="1" isGrassy="1" x="0" y="4" friction="1.2" restitution="0"/>
+		<box3 type="wall" length="3" height="2" isGrassy="1" x="0" y="6" friction="1.2" restitution="0"/>
+		<box3 type="wall" length="4" height="1" isGrassy="1" x="8" y="2" friction="1.2" restitution="0"/>
+		<box3 type="wall" length="3" height="3" isGrassy="0" x="9" y="3" friction="1.2" restitution="0"/>
+		<box3 type="wall" length="5" height="1" isGrassy="1" x="7" y="7" friction="1.2" restitution="0"/>
+		<box3 type="wall" length="1" height="1" isGrassy="0" x="8" y="2" friction="1.2" restitution="0"/>
+		<box3 type="wall" length="2" height="3" isGrassy="0" x="4" y="5" friction="1.2" restitution="0"/>
+		<box3 type="wall" length="4" height="1" isGrassy="1" x="4" y="5" friction="1.2" restitution="0"/>
+		<box3 type="wall" length="1" height="1" isGrassy="0" x="8" y="1" friction="1.2" restitution="0"/>
+		<box3 type="wall" length="1" height="1" isGrassy="0" x="8" y="1" friction="1.2" restitution="0"/>
+		<box3 type="wall" length="1" height="1" isGrassy="0" x="8" y="1" friction="1.2" restitution="0"/>
+		<box3 type="wall" length="1" height="1" isGrassy="0" x="8" y="1" friction="1.2" restitution="0"/>
+		<box3 type="bwall" length="0.5" height="2" x="5" y="2" />
+		<box3 type="bwall" length="2" height="0.5" x="5" y="2" />
+		<box3 type="bwall" length="0.5" height="2" x="7" y="2" />
+		<box3 type="bwall" length="2.5" height="0.5" x="5" y="4" />
+		<box3 type="clue" x="6" y="3" level="2" qNo="2" />
+		
+		<box4 type="wall" length="3" height="1" isGrassy="0" x="0" y="0" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="1" height="1" isGrassy="0" x="0" y="1" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="2" height="1" isGrassy="0" x="4" y="0" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="3" height="1" isGrassy="1" x="3" y="2" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="4" height="1" isGrassy="1" x="0" y="3" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="2" height="3" isGrassy="1" x="0" y="5" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="3" height="4" isGrassy="0" x="1" y="4" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="4" height="3" isGrassy="0" x="7" y="0" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="5" height="1" isGrassy="0" x="7" y="2" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="1" height="1" isGrassy="0" x="11" y="0" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="1" height="1" isGrassy="1" x="11" y="2" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="2" height="3" isGrassy="0" x="10" y="3" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="2" height="1" isGrassy="1" x="5" y="4" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="3" height="1" isGrassy="0" x="5" y="5" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="4" height="1" isGrassy="0" x="5" y="6" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="7" height="1" isGrassy="0" x="5" y="7" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="3" height="1" isGrassy="1" x="9" y="7" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="1" height="1" isGrassy="1" x="7" y="5" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="1" height="1" isGrassy="1" x="8" y="6" friction="1.2" restitution="0"/>
+		<box4 type="wall" length="1" height="1" isGrassy="0" x="3" y="3" friction="1.2" restitution="0"/>
+		
+		<box5 type="wall" length="2" height="1" isGrassy="0" x="3" y="0" friction="1.2" restitution="0"/>
+		<box5 type="wall" length="3" height="1" isGrassy="0" x="3" y="0" friction="1.2" restitution="0"/>
+		<box5 type="wall" length="2" height="1" isGrassy="0" x="3" y="1" friction="1.2" restitution="0"/>
+		<box5 type="wall" length="2" height="1" isGrassy="0" x="7" y="0" friction="1.2" restitution="0"/>
+		<box5 type="wall" length="4" height="2" isGrassy="0" x="8" y="0" friction="1.2" restitution="0"/>
+		<box5 type="wall" length="4" height="1" isGrassy="1" x="8" y="3" friction="1.2" restitution="0"/>
+		<box5 type="wall" length="3" height="1" isGrassy="1" x="0" y="4" friction="1.2" restitution="0"/>
+		<box5 type="wall" length="1" height="3" isGrassy="1" x="0" y="2" friction="1.2" restitution="0"/>
+		<box5 type="wall" length="2" height="1" isGrassy="0" x="0" y="5" friction="1.2" restitution="0"/>
+		<box5 type="wall" length="11" height="3" isGrassy="1" x="1" y="5" friction="1.2" restitution="0"/>
+		<box5 type="wall" length="2" height="1" isGrassy="0" x="1" y="5" friction="1.2" restitution="0"/>
+		<box5 type="wall" length="1" height="1" isGrassy="0" x="5" y="5" friction="1.2" restitution="0"/>
+		<box5 type="wall" length="1" height="1" isGrassy="0" x="0" y="5" friction="1.2" restitution="0"/>
+		<box5 type="wall" length="1" height="1" isGrassy="1" x="0" y="7" friction="1.2" restitution="0"/>
+		<box5 type="wall" length="1" height="1" isGrassy="1" x="5" y="4" friction="1.2" restitution="0"/>
+		<box5 type="turtle" startX="6" startY="4" endX="11" endY="4" vel="1" fric="0.5" />
+		<box5 type="pushButton" x="2" y="3" />
+		
+		<box6 type="wall" length="4" height="1" isGrassy="0" x="0" y="0" friction="1.2" restitution="0"/>
+		<box6 type="wall" length="1" height="2" isGrassy="0" x="0" y="1" friction="1.2" restitution="0"/>
+		<box6 type="wall" length="2" height="1" isGrassy="1" x="2" y="2" friction="1.2" restitution="0"/>
+		<box6 type="wall" length="7" height="3" isGrassy="0" x="5" y="0" friction="1.2" restitution="0"/>
+		<box6 type="wall" length="12" height="1" isGrassy="1" x="0" y="4" friction="1.2" restitution="0"/>
+		<box6 type="wall" length="2" height="4" isGrassy="1" x="4" y="4" friction="1.2" restitution="0"/>
+		<box6 type="wall" length="3" height="2" isGrassy="1" x="0" y="6" friction="1.2" restitution="0"/>
+		<box6 type="wall" length="5" height="2" isGrassy="1" x="7" y="6" friction="1.2" restitution="0"/>
+		<box6 type="turtle" startX="0" startY="3" endX="11" endY="3" vel="1" fric="0.5" />
+		<box6 type="rock" x="3" y="1" />
+		
+		<box7 type="wall" length="4" height="1" isGrassy="0" x="0" y="0" friction="1.2" restitution="0"/>
+		<box7 type="wall" length="2" height="4" isGrassy="1" x="0" y="2" friction="1.2" restitution="0"/>
+		<box7 type="wall" length="3" height="1" isGrassy="1" x="0" y="7" friction="1.2" restitution="0"/>
+		<box7 type="wall" length="1" height="7" isGrassy="0" x="3" y="1" friction="1.2" restitution="0"/>
+		<box7 type="wall" length="7" height="2" isGrassy="0" x="5" y="0" friction="1.2" restitution="0"/>
+		<box7 type="wall" length="2" height="2" isGrassy="0" x="5" y="1" friction="1.2" restitution="0"/>
+		<box7 type="wall" length="4" height="2" isGrassy="0" x="8" y="1" friction="1.2" restitution="0"/>
+		<box7 type="wall" length="1" height="2" isGrassy="0" x="8" y="2" friction="1.2" restitution="0"/>
+		<box7 type="wall" length="3" height="1" isGrassy="1" x="9" y="4" friction="1.2" restitution="0"/>
+		<box7 type="wall" length="3" height="3" isGrassy="0" x="5" y="5" friction="1.2" restitution="0"/>
+		<box7 type="wall" length="5" height="2" isGrassy="1" x="7" y="6" friction="1.2" restitution="0"/>
+		<box7 type="wall" length="1" height="3" isGrassy="1" x="7" y="5" friction="1.2" restitution="0"/>
+		<box7 type="wall" length="2" height="1" isGrassy="1" x="5" y="4" friction="1.2" restitution="0"/>
+		<!-- <box7 type="rocket" x="7.5" y="2.25" ammo="5" /> -->
+		<box7 type="rocket" x="7.5" y="2.25" ammo="5" />
+		<box7 type="clue" x="9" y="3" level="2" qNo="3" />
+		<box7 type="exit" x="2" y="6" />
+		
+	</boxes>
+	
+	
+	<exit x="24" y="2" />
+</data>
